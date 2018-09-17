@@ -1,0 +1,11 @@
+button {
+  min-width: 100px;
+  min-height: 40px;
+  font-size: 1.1em;
+}
+
+.button-dark {
+  border: none;
+  color: white;
+  background-color: #3f4349;
+}

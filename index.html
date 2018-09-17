@@ -5,15 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>UI Challenge 2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="main.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/modules.css" />
+  
 </head>
 <body>
+  <h1>UI Challenge- Custom Form Elements</h1>
   <h2>text input</h2>
-  <input type="text" value="placeholder text">
+  <input type="text" placeholder="placeholder text">
 
   <h2>text input w/ validation error</h2>
-  <input type="text" value="placeholder text">
+  <input type="text" placeholder="placeholder text">
 
   <h2>select box</h2>
   <select name="select-box-closed" id="">
@@ -28,13 +31,16 @@
   </select>
 
   <h2>checkbox</h2>
-  <input type="checkbox">
-  <input type="checkbox">
+  <div class="cb-div"><input id="cb" type="checkbox"></div>
 
   <h2>radio</h2>
-  <input type="radio">
-  <input type="radio">
+  <div class="radio-button radio-clicked"></div>
+  <div class="radio-button radio-unclicked"></div>
 
+  <h2>buttons</h2>
+  <button>Submit</button>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

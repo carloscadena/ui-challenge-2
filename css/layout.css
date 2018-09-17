@@ -1,0 +1,32 @@
+#cb {
+  display: none;
+}
+
+.cb-div {
+	background: url('../assets/sprites.png') no-repeat -158px -239px;
+	width: 161px;
+	height: 160px;
+}
+
+.checkbox-checked {
+  background: url('../assets/sprites.png') no-repeat -381px -239px;
+  width: 161px;
+  height: 160px;
+  z-index: 1;
+  }
+
+.radio-button {
+  display: inline-block;
+}
+
+.radio-unclicked {
+  background: url('../assets/sprites.png') no-repeat -582px -242px;
+	width: 167px;
+	height: 166px;
+}
+
+.radio-clicked {
+  background: url('../assets/sprites.png') no-repeat -812px -242px;
+  width: 168px;
+  height: 166px;
+}
